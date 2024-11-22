@@ -1,6 +1,6 @@
-number_1 = (12)
-number_2 = (13)
-number_3 = (11)
+number_1 = input()
+number_2 = input()
+number_3 = input()
 if number_1 == number_2 and number_1 == number_3 and number_2 == number_3:
     print('3')
 elif number_1 == number_2 or number_1 == number_3:
