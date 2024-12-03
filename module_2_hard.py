@@ -10,11 +10,13 @@ y = 0
 for x in a:
     for y in a:
         c = x + y
-        if b % c == 0:
+        if b % c == 0 and x >= y:
             list_3.append(x)
             list_3.append(y)
             x += 1
             y += 1
+            break
+        if x < y:
             break
     if x >= b:
         break
