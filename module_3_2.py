@@ -1,8 +1,3 @@
-
-
-
-
-
 def send_email (message, recipient, *, sender = 'university.help@gmail.com'):
     b = [ ".com", ".ru", ".net"]
     if ('@' in sender) and ('@' in recipient):
